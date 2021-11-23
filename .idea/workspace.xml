@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9ed2720c-e48d-4ea4-8be1-d1707ce5ee40" name="Default Changelist" comment="UIM:使用了qt_material的'dark_cyan'主题&#10;待解决：&#10;mysql数据连接前的数据预览窗口&#10;&#10;DataManager:处理Ui生成的数据&#10;待解决：&#10;1.直接接管流程控制，耦合度高。后续可以加入processManager进行解耦合&#10;2.可以增加配置文件调整默认保存路径&#10;&#10;img_manager: 使用pytesseract和opencv进行图像识别处理。&#10;待解决：&#10;1.pytesseract库对于中文识别效果不理想，需要训练中文库&#10;2.opencv对于不同表格的线识别程度不一，后续需要增加配置文件对其识别参数进行动态调整&#10;&#10;database_connector: 使用pymysql进行数据库操作，引擎使用sqlalchemy&#10;&#10;其他：&#10;README未编辑">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/OCR.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Confirm_Window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Confirm_Window.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/OCR_Surface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/OCR_Surface.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Preview_Window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Preview_Window.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/UIM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/img/wait.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/qbuttonlabel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/db_connect.back" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/log.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/setting.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocr/data_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocr/img_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocr/tests/GUI_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocr/tests/data_manager_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocr/tests/db_connect_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocr/tests/images/03-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocr/tests/images/excel2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocr/tests/images/table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocr/tests/images/txt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocr/tests/img_manager_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocr/tests/path_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocr/tests/temp/temp_binary_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1zoAbnNbo5aDhaILsm0xVLVLjgF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\pycharm\OCR\venv\Lib\site-packages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\pycharm\OCR\dist" />
+      <recent name="E:\Project\pycharm\OCR\docs" />
+      <recent name="E:\Project\pycharm\OCR\ocr\tests\images" />
+      <recent name="E:\Project\pycharm\OCR\ocr" />
+      <recent name="E:\Project\pycharm\OCR\UI" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="GUI_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OCR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ocr/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ocr/tests/GUI_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_manager_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OCR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ocr/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ocr/tests/data_manager_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="flash_window" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OCR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ocr/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ocr/tests/flash_window.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OCR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="path_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OCR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ocr/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ocr/tests/path_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.path_test" />
+        <item itemvalue="Python.flash_window" />
+        <item itemvalue="Python.GUI_test" />
+        <item itemvalue="Python.data_manager_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ed2720c-e48d-4ea4-8be1-d1707ce5ee40" name="Default Changelist" comment="" />
+      <created>1634804140696</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634804140696</updated>
+    </task>
+    <task id="LOCAL-00001" summary="UIM:使用了qt_material的'dark_cyan'主题&#10;待解决：&#10;mysql数据连接前的数据预览窗口&#10;&#10;DataManager:处理Ui生成的数据&#10;待解决：&#10;1.直接接管流程控制，耦合度高。后续可以加入processManager进行解耦合&#10;2.可以增加配置文件调整默认保存路径&#10;&#10;img_manager: 使用pytesseract和opencv进行图像识别处理。&#10;待解决：&#10;1.pytesseract库对于中文识别效果不理想，需要训练中文库&#10;2.opencv对于不同表格的线识别程度不一，后续需要增加配置文件对其识别参数进行动态调整&#10;&#10;database_connector: 使用pymysql进行数据库操作，引擎使用sqlalchemy&#10;&#10;其他：&#10;README未编辑">
+      <created>1637640968142</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637640968142</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UIM:使用了qt_material的'dark_cyan'主题&#10;待解决：&#10;mysql数据连接前的数据预览窗口&#10;&#10;DataManager:处理Ui生成的数据&#10;待解决：&#10;1.直接接管流程控制，耦合度高。后续可以加入processManager进行解耦合&#10;2.可以增加配置文件调整默认保存路径&#10;&#10;img_manager: 使用pytesseract和opencv进行图像识别处理。&#10;待解决：&#10;1.pytesseract库对于中文识别效果不理想，需要训练中文库&#10;2.opencv对于不同表格的线识别程度不一，后续需要增加配置文件对其识别参数进行动态调整&#10;&#10;database_connector: 使用pymysql进行数据库操作，引擎使用sqlalchemy&#10;&#10;其他：&#10;README未编辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="UIM:使用了qt_material的'dark_cyan'主题&#10;待解决：&#10;mysql数据连接前的数据预览窗口&#10;&#10;DataManager:处理Ui生成的数据&#10;待解决：&#10;1.直接接管流程控制，耦合度高。后续可以加入processManager进行解耦合&#10;2.可以增加配置文件调整默认保存路径&#10;&#10;img_manager: 使用pytesseract和opencv进行图像识别处理。&#10;待解决：&#10;1.pytesseract库对于中文识别效果不理想，需要训练中文库&#10;2.opencv对于不同表格的线识别程度不一，后续需要增加配置文件对其识别参数进行动态调整&#10;&#10;database_connector: 使用pymysql进行数据库操作，引擎使用sqlalchemy&#10;&#10;其他：&#10;README未编辑" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ocr/tests/path_test.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
